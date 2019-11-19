@@ -1,4 +1,4 @@
-pillow==2.8.2
+pillow==6.2.0
 flask
 Flask-WTF
 gunicorn
