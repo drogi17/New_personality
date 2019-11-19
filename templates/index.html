@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>new personality</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> </head>-->
+    <script src="{{ url_for('static', filename='post.js') }}"></script>
+    <body>
+       <div class="head">
+           <a href="/" class="head">HOME</a>
+           <a href="/LICENSE" class="head">LICENSE</a>
+       </div>
+        <div class="first">
+            <div class="center">
+                <h2>Made by @drogi17</h2>
+                <h1>First name</h1>
+                <input type="text" id="f_n">
+                <h1>last name</h1>
+                <input type="text" id="l_n">
+                <h1>patronymic</h1>
+                <input type="text" id="pat">
+                <h1>gender</h1>
+                <select name="" id="gend">
+                    <option value="Man">Man</option>
+                    <option value="Woman">Woman</option>
+                </select>
+                <h1>face</h1>
+                <div class="example-2">
+                    <div class="form-group">
+                        <input type="file" name="file" id="file" class="input-file" accept=".png" >
+                        <label for="file" class="btn btn-tertiary js-labelFile"> <img src="https://icon-library.net/images/drag-and-drop-icon/drag-and-drop-icon-8.jpg" width="20" height="16" alt=""> <span class="js-fileName">Загрузить файл</span> </label>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="knopka" onclick="send()">
+                       <p class="MAKE">MAKE</p>
+                </div>
+                </div>
+        </div>
+    </body>
+
+</html>

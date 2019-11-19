@@ -1,0 +1,20 @@
+{
+    "font": "SeroPro-Light.ttf"
+    , "size_text": 21
+    , "suren_u_x": 263
+    , "suren_u_y": 94
+    , "suren_e_x": 263
+    , "suren_e_y": 115
+    , "name_u_x": 263
+    , "name_u_y": 150
+    , "name_e_x": 263
+    , "name_e_y": 171
+    , "patronymic_x": 263
+    , "patronymic_y": 206
+    , "gender_x": 263
+    , "gender_y": 242
+    , "photo_x": 33
+    , "photo_y": 103
+    , "nomber_x": 413
+    , "nomber_y": 317
+}

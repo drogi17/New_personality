@@ -1,0 +1,149 @@
+* {
+    outline: none;
+    border: none;
+    padding: 0;
+    color: #fff;
+}
+
+a.head{
+    font-family: 'Raleway', sans-serif;
+    font-size:  19px;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+body {
+    background-color: #000000;
+}
+
+.first {
+    margin-top: 140px;
+    width: 100%;
+}
+
+.center {
+    margin-left: 30%;
+}
+
+input[type=text] {
+    text-transform: uppercase;
+    width: 40%;
+    height: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+.inputfile + label {
+    cursor: pointer;
+    /* "hand" cursor */
+}
+
+select {
+    text-transform: uppercase;
+    width: 40%;
+    height: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+option {
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+
+.example-2 .btn-tertiary {
+    font-family: 'Raleway', sans-serif;
+    color: #555;
+    padding: 0;
+    line-height: 40px;
+    width: 300px;
+    display: block;
+    border: 2px solid #555
+}
+
+.example-2 .btn-tertiary:hover,
+.example-2 .btn-tertiary:focus {
+    color: #888;
+    border-color: #888
+}
+
+.example-2 .input-file {
+    width: .1px;
+    height: .1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1
+}
+
+.example-2 .input-file + .js-labelFile {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+    cursor: pointer
+}
+
+.example-2 .input-file + .js-labelFile .icon:before {
+    content: "\f093"
+}
+
+.example-2 .input-file + .js-labelFile.has-file .icon:before {
+    content: "\f00c";
+    color: #5AAC7B
+}
+
+.knopka {
+    width: 40%;
+    font-family: 'Raleway', sans-serif;
+
+    text-decoration: none;
+    user-select: none;
+    background: #fff;
+    padding: .7em 1.5em;
+    outline: none;
+    color: #000;
+}
+
+.knopka:hover {
+    background: #baacac;
+}
+
+
+/* при наведении курсора мышки */
+
+.knopka:active {
+    background:#000;
+    color: #fff;
+}
+
+
+.MAKE{
+    margin: 0;
+    margin-left: 40%;
+    color: #000;
+    font-size: 20px;
+}
